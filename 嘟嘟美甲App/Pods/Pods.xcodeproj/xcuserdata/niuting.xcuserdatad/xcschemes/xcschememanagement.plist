@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2E767C26CC6DB41BB0886516CCB27EF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>816DCC803EC52048CC139F10235A974E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C52981DE3462073A36AC20DDE8E3FF47</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA95DBB1A352DD4B3BF8B227AD86C8A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
