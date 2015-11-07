@@ -2,29 +2,23 @@
 //  HomeTopCell.m
 //  嘟嘟美甲App
 //
-//  Created by niuting on 15/11/5.
+//  Created by niuting on 15/11/7.
 //  Copyright (c) 2015年 niuting. All rights reserved.
 //
 
 #import "HomeTopCell.h"
-#import "HomeScrollView.h"
-@interface HomeTopCell ()
+#import "PublicHeader.h"
 
-@property (weak, nonatomic) IBOutlet UIScrollView *photoScro;
-@property (weak, nonatomic) IBOutlet UIScrollView *scondScro;
-@end
 @implementation HomeTopCell
 
 - (void)awakeFromNib {
-    
-    self.autoresizingMask = UIViewAutoresizingNone;
+    self.frame = CGRectMake(0, 0, ScreenSize.width, 50);
 }
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        
-    }
-    return self;
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+
+    // Configure the view for the selected state
 }
 
 @end

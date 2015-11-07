@@ -18,7 +18,7 @@
 - (void)awakeFromNib
 {
     // 不需要跟随父控件的尺寸变化而伸缩
-    self.autoresizingMask = UIViewAutoresizingNone;
+    
 }
 
 @end

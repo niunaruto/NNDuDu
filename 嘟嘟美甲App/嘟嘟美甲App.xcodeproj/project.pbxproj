@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		370A5110F37FBEA95F7127DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF82A57050CA442F189E271A /* libPods.a */; };
+		CE01579E1BEE3D5D003D90DE /* HomeTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01579C1BEE3D5D003D90DE /* HomeTopCell.m */; };
+		CE01579F1BEE3D5D003D90DE /* HomeTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE01579D1BEE3D5D003D90DE /* HomeTopCell.xib */; };
 		CEA0E57A1BEB8E4F005E8F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0E5791BEB8E4F005E8F14 /* main.m */; };
 		CEA0E57D1BEB8E4F005E8F14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0E57C1BEB8E4F005E8F14 /* AppDelegate.m */; };
 		CEA0E5801BEB8E4F005E8F14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0E57F1BEB8E4F005E8F14 /* ViewController.m */; };
@@ -26,8 +28,6 @@
 		CEA0E5CA1BEB9DDE005E8F14 /* HomeTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0E5C91BEB9DDE005E8F14 /* HomeTabView.m */; };
 		CEA0E5CC1BEB9EF6005E8F14 /* HomeScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA0E5CB1BEB9EF6005E8F14 /* HomeScrollView.xib */; };
 		CEA0E5CF1BEBA163005E8F14 /* HomeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0E5CE1BEBA163005E8F14 /* HomeScrollView.m */; };
-		CEA0E5D31BEBA46D005E8F14 /* HomeTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0E5D11BEBA46D005E8F14 /* HomeTopCell.m */; };
-		CEA0E5D41BEBA46D005E8F14 /* HomeTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA0E5D21BEBA46D005E8F14 /* HomeTopCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,9 @@
 		79DDC771E301BA2A00F5BE0B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B98C332FC70F1E23345A2791 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BF82A57050CA442F189E271A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE01579B1BEE3D5D003D90DE /* HomeTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTopCell.h; sourceTree = "<group>"; };
+		CE01579C1BEE3D5D003D90DE /* HomeTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTopCell.m; sourceTree = "<group>"; };
+		CE01579D1BEE3D5D003D90DE /* HomeTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTopCell.xib; sourceTree = "<group>"; };
 		CEA0E5741BEB8E4F005E8F14 /* 嘟嘟美甲App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "嘟嘟美甲App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA0E5781BEB8E4F005E8F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA0E5791BEB8E4F005E8F14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,9 +82,6 @@
 		CEA0E5CB1BEB9EF6005E8F14 /* HomeScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeScrollView.xib; sourceTree = "<group>"; };
 		CEA0E5CD1BEBA163005E8F14 /* HomeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScrollView.h; sourceTree = "<group>"; };
 		CEA0E5CE1BEBA163005E8F14 /* HomeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScrollView.m; sourceTree = "<group>"; };
-		CEA0E5D01BEBA46D005E8F14 /* HomeTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTopCell.h; sourceTree = "<group>"; };
-		CEA0E5D11BEBA46D005E8F14 /* HomeTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTopCell.m; sourceTree = "<group>"; };
-		CEA0E5D21BEBA46D005E8F14 /* HomeTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTopCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,9 +294,9 @@
 				CEA0E5CD1BEBA163005E8F14 /* HomeScrollView.h */,
 				CEA0E5CE1BEBA163005E8F14 /* HomeScrollView.m */,
 				CEA0E5CB1BEB9EF6005E8F14 /* HomeScrollView.xib */,
-				CEA0E5D01BEBA46D005E8F14 /* HomeTopCell.h */,
-				CEA0E5D11BEBA46D005E8F14 /* HomeTopCell.m */,
-				CEA0E5D21BEBA46D005E8F14 /* HomeTopCell.xib */,
+				CE01579B1BEE3D5D003D90DE /* HomeTopCell.h */,
+				CE01579C1BEE3D5D003D90DE /* HomeTopCell.m */,
+				CE01579D1BEE3D5D003D90DE /* HomeTopCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -432,7 +432,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA0E5D41BEBA46D005E8F14 /* HomeTopCell.xib in Resources */,
+				CE01579F1BEE3D5D003D90DE /* HomeTopCell.xib in Resources */,
 				CEA0E5831BEB8E4F005E8F14 /* Main.storyboard in Resources */,
 				CEA0E5881BEB8E4F005E8F14 /* LaunchScreen.xib in Resources */,
 				CEA0E5CC1BEB9EF6005E8F14 /* HomeScrollView.xib in Resources */,
@@ -491,7 +491,7 @@
 				CEA0E5B71BEB950D005E8F14 /* MyViewController.m in Sources */,
 				CEA0E5801BEB8E4F005E8F14 /* ViewController.m in Sources */,
 				CEA0E5CA1BEB9DDE005E8F14 /* HomeTabView.m in Sources */,
-				CEA0E5D31BEBA46D005E8F14 /* HomeTopCell.m in Sources */,
+				CE01579E1BEE3D5D003D90DE /* HomeTopCell.m in Sources */,
 				CEA0E5BA1BEB9520005E8F14 /* FundViewController.m in Sources */,
 				CEA0E5CF1BEBA163005E8F14 /* HomeScrollView.m in Sources */,
 				CEA0E5BD1BEB95CD005E8F14 /* NNDuViewController.m in Sources */,

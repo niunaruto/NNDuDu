@@ -7,13 +7,16 @@
 //
 
 #import "FundViewController.h"
-
-@interface FundViewController ()
-
+#import "PublicHeader.h"
+@interface FundViewController ()<UITableViewDataSource,UITableViewDelegate>
+/**   <#desc#>      */
+@property (strong, nonatomic) NNBaseTableView *fundTableView;
 @end
 
 @implementation FundViewController
 
+
+//}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

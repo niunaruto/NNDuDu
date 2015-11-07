@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--发现-->
         <scene sceneID="7t3-VV-vSp">
             <objects>
                 <viewController id="iZG-gc-6A4" customClass="FundViewController" sceneMemberID="viewController">
@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="7Oa-h3-wdm"/>
+                    <tabBarItem key="tabBarItem" title="发现" id="7Oa-h3-wdm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Fi-Lq-UYG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-685" y="-104"/>
         </scene>
-        <!--Item-->
+        <!--我的-->
         <scene sceneID="XyX-01-JtA">
             <objects>
                 <viewController id="5cg-eO-K9f" customClass="MyViewController" sceneMemberID="viewController">
@@ -36,13 +36,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="4fd-Oc-epZ"/>
+                    <tabBarItem key="tabBarItem" title="我的" id="4fd-Oc-epZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="irL-D2-eUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-674" y="1412"/>
         </scene>
-        <!--Item 1-->
+        <!--首页-->
         <scene sceneID="Krs-Nc-6ZY">
             <objects>
                 <viewController id="o5y-FS-La6" customClass="HomeViewController" sceneMemberID="viewController">
@@ -55,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="J8m-ev-tvR"/>
+                    <tabBarItem key="tabBarItem" title="首页" id="J8m-ev-tvR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uht-nf-JzU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +82,7 @@
             </objects>
             <point key="canvasLocation" x="-1595" y="-253"/>
         </scene>
-        <!--Item-->
+        <!--美甲师-->
         <scene sceneID="hMd-7w-tH6">
             <objects>
                 <viewController id="Jao-RO-0ut" customClass="ArtistViewController" sceneMemberID="viewController">
@@ -95,7 +95,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="LDC-89-baz"/>
+                    <tabBarItem key="tabBarItem" title="美甲师" id="LDC-89-baz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6I-gn-Wri" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -17,7 +17,7 @@
     
     if (self) {
         
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor grayColor];
         
         
         if (leftImage !=nil) {
@@ -35,6 +35,7 @@
             UILabel*titleLable=[[UILabel alloc] initWithFrame:CGRectMake(56, 20, ScreenSize.width-56*2, 44)];
             titleLable.backgroundColor=[UIColor clearColor];
             titleLable.text=title;
+            titleLable.textColor = [UIColor redColor];
             titleLable.tag=3;
             titleLable.textAlignment=NSTextAlignmentCenter;
 //            titleLable.textColor= UIColorFrom87Black;

@@ -20,14 +20,18 @@
 - (NNNavView *)nav{
     if (!_nav) {
         _nav = [[NNNavView alloc]initWithLeftImage:nil leftHigImage:nil rightImage:nil rightHigImage:nil backgroundColor:[UIColor whiteColor] title:@"嘟嘟美甲" click:nil target:self];
+        
     }
     return _nav;
 }
 - (HomeTabView *)tableView{
     if (!_tableView) {
-        _tableView = [[HomeTabView alloc]init];
+        _tableView = [[HomeTabView alloc]initWithFrame:CGRectMake(0, 0, ScreenSize.width, ScreenSize.height) style:UITableViewStylePlain loadNewData:nil loadMoreData:nil target:self];
     }
     return _tableView;
+}
+- (void)loadNewData{
+    
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
